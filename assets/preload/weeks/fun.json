@@ -1,0 +1,30 @@
+{
+	"storyName": "???",
+	"hideFreeplay": false,
+	"weekBackground": "inf",
+	"weekBefore": "week1",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"endless",
+			"majin",
+			[
+				0,
+				0,
+				193
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "fun"
+}

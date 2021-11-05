@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				430,
+				584
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "idlemad",
+			"indices": []
+		},
+		{
+			"offsets": [
+				475,
+				539
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "leftmad",
+			"indices": []
+		},
+		{
+			"offsets": [
+				422,
+				593
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "rightmad",
+			"indices": []
+		},
+		{
+			"offsets": [
+				431,
+				567
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "upmad",
+			"indices": []
+		},
+		{
+			"offsets": [
+				460,
+				561
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "downmad",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nyanmad",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "nyan",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		-330,
+		-380
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

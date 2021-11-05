@@ -1,0 +1,38 @@
+{
+	"songs": [
+		[
+			"Nyan",
+			"nyan",
+			[
+				0,
+				255,
+				93
+			]
+		],
+		[
+			"Echo",
+			"nyan",
+			[
+				0,
+				255,
+				93
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"nyan",
+		"bf",
+		"gf"
+	],
+	"storyName": "NBB",
+	"weekName": "Nyan Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"startUnlocked": true
+}

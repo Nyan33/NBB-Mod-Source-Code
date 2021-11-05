@@ -1,0 +1,67 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "pretty good BF"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ske"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Would you mind if I turn one of my favorite songs?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bop"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "what?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you want a real challenge?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep bop!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "okay"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I will try"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Nyan_Dialog.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="NYANtalk0000" x="0" y="0" width="485" height="840" frameX="-76" frameY="-29" frameWidth="604" frameHeight="883"/>
+	<SubTexture name="NYANtalk0001" x="0" y="0" width="485" height="840" frameX="-76" frameY="-29" frameWidth="604" frameHeight="883"/>
+	<SubTexture name="NYANtalk0002" x="485" y="0" width="483" height="854" frameX="-77" frameY="-22" frameWidth="604" frameHeight="883"/>
+	<SubTexture name="NYANtalk0003" x="485" y="0" width="483" height="854" frameX="-77" frameY="-22" frameWidth="604" frameHeight="883"/>
+	<SubTexture name="NYANtalk0004" x="968" y="0" width="604" height="883"/>
+	<SubTexture name="NYANtalk0005" x="968" y="0" width="604" height="883"/>
+	<SubTexture name="NYANtalk0006" x="0" y="883" width="586" height="863" frameX="-9" frameY="-10" frameWidth="604" frameHeight="883"/>
+	<SubTexture name="NYANtalk0007" x="0" y="883" width="586" height="863" frameX="-9" frameY="-10" frameWidth="604" frameHeight="883"/>
+	<SubTexture name="NYANstop0000" x="0" y="883" width="586" height="863" frameX="-9" frameY="-10" frameWidth="604" frameHeight="883"/>	
+</TextureAtlas>

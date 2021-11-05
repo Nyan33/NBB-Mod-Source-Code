@@ -1,0 +1,10 @@
+{
+	"idle_anim": "idle",
+	"image": "menu_nyan",
+	"position": [
+		119,
+		175
+	],
+	"scale": 0.5,
+	"confirm_anim": "M Dad Idle"
+}

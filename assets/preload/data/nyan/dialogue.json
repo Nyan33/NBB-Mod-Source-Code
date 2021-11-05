@@ -1,0 +1,53 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yo"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you came faster than i thought"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "so you came here for a rap battle?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "be"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "nyan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "lets go then"
+		}
+	]
+}

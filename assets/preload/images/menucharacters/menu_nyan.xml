@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_nyan.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="0" y="0" width="413" height="695" frameX="0" frameY="-10" frameWidth="413" frameHeight="722"/>
+	<SubTexture name="idle0001" x="0" y="0" width="413" height="695" frameX="0" frameY="-10" frameWidth="413" frameHeight="722"/>
+	<SubTexture name="idle0002" x="413" y="0" width="397" height="707" frameX="-7" frameY="-8" frameWidth="413" frameHeight="722"/>
+	<SubTexture name="idle0003" x="413" y="0" width="397" height="707" frameX="-7" frameY="-8" frameWidth="413" frameHeight="722"/>
+	<SubTexture name="idle0004" x="810" y="0" width="396" height="722" frameX="-7" frameY="0" frameWidth="413" frameHeight="722"/>
+	<SubTexture name="idle0005" x="810" y="0" width="396" height="722" frameX="-7" frameY="0" frameWidth="413" frameHeight="722"/>
+</TextureAtlas>
