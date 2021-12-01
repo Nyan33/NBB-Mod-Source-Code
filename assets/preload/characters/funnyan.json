@@ -2,58 +2,58 @@
 	"animations": [
 		{
 			"offsets": [
-				220,
-				404
+				60,
+				334
 			],
-			"loop": false,
+			"indices": [],
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "SONICFUNIDLE",
-			"indices": []
+			"loop": false,
+			"name": "idle"
 		},
 		{
 			"offsets": [
-				465,
-				189
+				157,
+				329
 			],
-			"loop": false,
-			"anim": "singLEFT",
+			"indices": [],
 			"fps": 24,
-			"name": "SONICFUNLEFT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				192,
-				283
-			],
-			"loop": false,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "SONICFUNRIGHT",
-			"indices": []
+			"loop": false,
+			"name": "right"
 		},
 		{
 			"offsets": [
-				201,
-				357
+				69,
+				374
 			],
-			"loop": false,
+			"indices": [],
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "SONICFUNUP",
-			"indices": []
+			"loop": false,
+			"name": "up"
 		},
 		{
 			"offsets": [
-				231,
-				191
+				145,
+				289
 			],
-			"loop": false,
-			"anim": "singDOWN",
+			"indices": [],
 			"fps": 24,
-			"name": "SONICFUNDOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				398,
+				328
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
 		}
 	],
 	"no_antialiasing": false,
@@ -67,11 +67,11 @@
 	"healthbar_colors": [
 		0,
 		0,
-		120
+		215
 	],
 	"camera_position": [
-		-210,
-		-220
+		-80,
+		-240
 	],
 	"sing_duration": 4,
 	"scale": 0.9

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MENU-NYN.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="nyaan0000" x="0" y="0" width="291" height="723" frameX="0" frameY="-3" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0001" x="291" y="0" width="294" height="724" frameX="-4" frameY="-3" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0002" x="585" y="0" width="299" height="724" frameX="-7" frameY="-3" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0003" x="884" y="0" width="302" height="725" frameX="-10" frameY="-2" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0004" x="1186" y="0" width="306" height="725" frameX="-13" frameY="-2" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0005" x="1492" y="0" width="312" height="726" frameX="-14" frameY="-1" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0006" x="1804" y="0" width="320" height="726" frameX="-13" frameY="-1" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0007" x="2124" y="0" width="327" height="726" frameX="-13" frameY="-1" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0008" x="2451" y="0" width="334" height="726" frameX="-13" frameY="-1" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0009" x="2785" y="0" width="341" height="727" frameX="-13" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0010" x="3126" y="0" width="348" height="727" frameX="-13" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0011" x="3474" y="0" width="355" height="727" frameX="-13" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0012" x="0" y="727" width="363" height="727" frameX="-12" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0013" x="363" y="727" width="369" height="727" frameX="-12" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0014" x="732" y="727" width="376" height="727" frameX="-12" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0015" x="363" y="727" width="369" height="727" frameX="-12" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0016" x="0" y="727" width="363" height="727" frameX="-12" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0017" x="0" y="727" width="363" height="727" frameX="-12" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0018" x="3126" y="0" width="348" height="727" frameX="-13" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0019" x="2785" y="0" width="341" height="727" frameX="-13" frameY="0" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0020" x="2451" y="0" width="334" height="726" frameX="-13" frameY="-1" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0021" x="2124" y="0" width="327" height="726" frameX="-13" frameY="-1" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0022" x="1804" y="0" width="320" height="726" frameX="-13" frameY="-1" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0023" x="1492" y="0" width="312" height="726" frameX="-14" frameY="-1" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0024" x="1186" y="0" width="306" height="725" frameX="-13" frameY="-2" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0025" x="884" y="0" width="302" height="725" frameX="-10" frameY="-2" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0026" x="585" y="0" width="299" height="724" frameX="-7" frameY="-3" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0027" x="291" y="0" width="294" height="724" frameX="-4" frameY="-3" frameWidth="388" frameHeight="727"/>
+	<SubTexture name="nyaan0028" x="0" y="0" width="291" height="723" frameX="0" frameY="-3" frameWidth="388" frameHeight="727"/>
+</TextureAtlas>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MENU-button.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CREDITS0000" x="0" y="0" width="623" height="142"/>
+	<SubTexture name="CREDITS-go0000" x="0" y="0" width="623" height="142"/>
+	<SubTexture name="CREDITS-go0001" x="0" y="0" width="623" height="142"/>
+	<SubTexture name="CREDITS-go0002" x="0" y="0" width="623" height="142"/>
+	<SubTexture name="CREDITS-go0003" x="0" y="142" width="623" height="142"/>
+	<SubTexture name="CREDITS-go0004" x="0" y="142" width="623" height="142"/>
+	<SubTexture name="CREDITS-go0005" x="0" y="142" width="623" height="142"/>
+	<SubTexture name="CREDITS-stop0000" x="0" y="142" width="623" height="142"/>
+	<SubTexture name="FREEPLAY0000" x="0" y="284" width="628" height="142"/>
+	<SubTexture name="FREEPLAY-go0000" x="0" y="284" width="628" height="142"/>
+	<SubTexture name="FREEPLAY-go0001" x="0" y="284" width="628" height="142"/>
+	<SubTexture name="FREEPLAY-go0002" x="0" y="284" width="628" height="142"/>
+	<SubTexture name="FREEPLAY-go0003" x="0" y="426" width="628" height="142"/>
+	<SubTexture name="FREEPLAY-go0004" x="0" y="426" width="628" height="142"/>
+	<SubTexture name="FREEPLAY-go0005" x="0" y="426" width="628" height="142"/>
+	<SubTexture name="FREEPLAY-stop0000" x="0" y="426" width="628" height="142"/>
+	<SubTexture name="MENUPLAY0000" x="0" y="711" width="326" height="145"/>
+	<SubTexture name="MENUPLAY-go0000" x="0" y="711" width="326" height="145"/>
+	<SubTexture name="MENUPLAY-go0001" x="0" y="711" width="326" height="145"/>
+	<SubTexture name="MENUPLAY-go0002" x="0" y="711" width="326" height="145"/>
+	<SubTexture name="MENUPLAY-go0003" x="326" y="711" width="326" height="145"/>
+	<SubTexture name="MENUPLAY-go0004" x="326" y="711" width="326" height="145"/>
+	<SubTexture name="MENUPLAY-go0005" x="326" y="711" width="326" height="145"/>
+	<SubTexture name="MENUPLAY-stop0000" x="326" y="711" width="326" height="145"/>
+	<SubTexture name="OPTIONS0000" x="0" y="568" width="497" height="143"/>
+	<SubTexture name="OPTIONS-go0000" x="0" y="568" width="497" height="143"/>
+	<SubTexture name="OPTIONS-go0001" x="0" y="568" width="497" height="143"/>
+	<SubTexture name="OPTIONS-go0002" x="0" y="568" width="497" height="143"/>
+	<SubTexture name="OPTIONS-go0003" x="497" y="568" width="497" height="143"/>
+	<SubTexture name="OPTIONS-go0004" x="497" y="568" width="497" height="143"/>
+	<SubTexture name="OPTIONS-go0005" x="497" y="568" width="497" height="143"/>
+	<SubTexture name="OPTIONS-stop0000" x="497" y="568" width="497" height="143"/>
+</TextureAtlas>

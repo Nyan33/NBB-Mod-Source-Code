@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="STANDNOTE_assets.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="0" y="0" width="170" height="170"/>
+	<SubTexture name="blue hold end0000" x="170" y="0" width="50" height="64"/>
+	<SubTexture name="blue hold piece0000" x="220" y="0" width="50" height="44"/>
+	<SubTexture name="green0000" x="270" y="0" width="170" height="170"/>
+	<SubTexture name="green hold end0000" x="440" y="0" width="50" height="64"/>
+	<SubTexture name="green hold piece0000" x="0" y="170" width="50" height="44"/>
+	<SubTexture name="pruple end hold0000" x="50" y="170" width="50" height="64"/>
+	<SubTexture name="purple0000" x="100" y="170" width="170" height="170"/>
+	<SubTexture name="purple hold piece0000" x="270" y="170" width="50" height="44"/>
+	<SubTexture name="red0000" x="320" y="170" width="170" height="170"/>
+	<SubTexture name="red hold end0000" x="0" y="340" width="50" height="64"/>
+	<SubTexture name="red hold piece0000" x="50" y="340" width="50" height="44"/>
+</TextureAtlas>

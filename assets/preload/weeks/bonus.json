@@ -1,0 +1,48 @@
+{
+	"storyName": "bonus",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "week1",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Thunderstorm",
+			"nyan-mad",
+			[
+				126,
+				0,
+				0
+			]
+		],
+		[
+			"sussus moogus",
+			"nyan-crew",
+			[
+				0,
+				255,
+				93
+			]
+		],
+		[
+			"monochrome",
+			"mono",
+			[
+				0,
+				0,
+				0
+			]
+		]		
+	],
+	"hideStoryMode": true,
+	"weekName": "Bonus Songs"
+}

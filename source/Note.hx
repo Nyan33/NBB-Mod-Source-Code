@@ -94,6 +94,12 @@ class Note extends FlxSprite
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;	
+				case 'Stand Note':
+					reloadNote('STAND');
+					missHealth -= 500;
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;					
 				case 'Nyan Note':
 					ignoreNote = mustPress;
 					reloadNote('NYAN');

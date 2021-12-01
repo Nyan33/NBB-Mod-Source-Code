@@ -12,40 +12,40 @@ using StringTools;
 class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Hidden achievement
 		["Freaky on a Friday Night",	"Play on a Friday... Night.",							 true],
-		["Neon Bunny",		            "Complete Chapter 1 on Ultimate.",			false],
-		["Fun Is Infinite",				"Beat Endless.",					false],
+		["Neon Bunny",		            "Complete Chapter 1 on Ultimate.",			true],
+		["Fun Is Infinite",				"Beat Endless.",					true],
 		["???",			                "Beat ??? on Hard with no Misses.",					     true],
 		["???",					        "Beat ??? on Hard with no Misses.",					     true],
 		["???",			                "Beat ??? on Hard with no Misses.",					     true],
 		["???",					        "Beat ??? on Hard with no Misses.",					     true],
 		["???",		                    "Beat ??? on Hard with no Misses.",					     true],
-		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",		false],
-		["Perfectionist",				"Complete a Song with a rating of 100%.",				false],
+		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",		true],
+		["Perfectionist",				"Complete a Song with a rating of 100%.",				true],
 		["Roadkill Enthusiast",			"Watch the Henchmen die over 100 times.",				 true],
-		["Oversinging Much...?",		"Hold down a note for 20 seconds.",						false],
-		["Hyperactive",					"Finish a Song without going Idle.",					false],
-		["Just the Two of Us",			"Finish a Song pressing only two keys.",				false],
-		["Toaster Gamer",				"Have you tried to run the game on a toaster?",			false],
+		["Oversinging Much...?",		"Hold down a note for 20 seconds.",						true],
+		["Hyperactive",					"Finish a Song without going Idle.",					true],
+		["Just the Two of Us",			"Finish a Song pressing only two keys.",				true],
+		["Toaster Gamer",				"Have you tried to run the game on a toaster?",			true],
 		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",		 true]
 	];
 
 	public static var achievementsUnlocked:Array<Dynamic> = [ //Save string and Achievement tag + is it unlocked?
-		['friday_night_play', false],	//0
-		['week1_nomiss', false],		//1
-		['week2_nomiss', false],		//2
-		['week3_nomiss', false],		//3
-		['week4_nomiss', false],		//4
-		['week5_nomiss', false],		//5
-		['week6_nomiss', false],		//6
-		['week7_nomiss', false],		//7
-		['ur_bad', false],				//8
-		['ur_good', false],				//9
-		['roadkill_enthusiast', false],	//10
-		['oversinging', false],			//11
-		['hype', false],				//12
-		['two_keys', false],			//13
-		['toastie', false],				//14
-		['debugger', false], 			//15
+		['friday_night_play', true],	//0
+		['week1_nomiss', true],		//1
+		['week2_nomiss', true],		//2
+		['week3_nomiss', true],		//3
+		['week4_nomiss', true],		//4
+		['week5_nomiss', true],		//5
+		['week6_nomiss', true],		//6
+		['week7_nomiss', true],		//7
+		['ur_bad', true],				//8
+		['ur_good', true],				//9
+		['roadkill_enthusiast', true],	//10
+		['oversinging', true],			//11
+		['hype', true],				//12
+		['two_keys', true],			//13
+		['toastie', true],				//14
+		['debugger', true], 			//15
 	];
 
 	public static var henchmenDeath:Int = 0;

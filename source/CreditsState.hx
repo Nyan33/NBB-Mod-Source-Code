@@ -30,6 +30,7 @@ class CreditsState extends MusicBeatState
 		[''],
 		['Mod Creators'],
 		['Nyan BunBun',				'NBB',			'Mod Programmer, Composer, Artist and Animator',						'https://www.youtube.com/c/NyanBunBun',			0xFF48EF99],
+		['Nick',				'nickus',			'Nyan Song Charting',						'https://www.youtube.com/channel/UC5ats0mTLEzaP-5xwF_nhJw',			0xFF091790],		
 		[''],
 		['Engine Contributors'],
 		['shubs',				'shubs',			'New Input System Programmer',						'https://twitter.com/yoshubs',			0xFF4494E6],

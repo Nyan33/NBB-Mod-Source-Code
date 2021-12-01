@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Nyan2 Health Icon.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Nyan2 Icon0000" x="0" y="0" width="136" height="136"/>
+	<SubTexture name="Nyan2 Icon0001" x="0" y="0" width="136" height="136"/>
+	<SubTexture name="Nyan2 Icon0002" x="136" y="0" width="136" height="136"/>
+	<SubTexture name="Nyan2 Icon0003" x="136" y="0" width="136" height="136"/>
+	<SubTexture name="Nyan2 Icon0004" x="272" y="0" width="136" height="136"/>
+	<SubTexture name="Nyan2 Icon0005" x="272" y="0" width="136" height="136"/>
+	<SubTexture name="Nyan2 Icon0006" x="136" y="0" width="136" height="136"/>
+	<SubTexture name="Nyan2 Icon0007" x="136" y="0" width="136" height="136"/>
+	<SubTexture name="Nyan2 Icon0008" x="0" y="0" width="136" height="136"/>
+	<SubTexture name="Nyan2 Icon0009" x="0" y="0" width="136" height="136"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+{
+	"idle_anim": "idle",
+	"image": "Menu_Unknets",
+	"position": [
+		0,
+		-63
+	],
+	"scale": 1.25,
+	"confirm_anim": "M Dad Idle"
+}
