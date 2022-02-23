@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "phew",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
+		},
+		{
+			"expression": "talk",
+			"text": "still too easy for you?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
+		},
+		{
+			"expression": "talk",
+			"text": "bee",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "I hope you are ready for something not as short as those two songs ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
+		},
+		{
+			"expression": "excited",
+			"text": "bep!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "well, let's get started...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
+		}
+	]
+}

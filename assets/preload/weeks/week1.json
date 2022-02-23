@@ -1,47 +1,49 @@
 {
-	"storyName": "NBB",
+	"storyName": "Nyan BunBun",
+	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
 	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Enemy",
+			"nyan",
+			[
+				0,
+				93,
+				40
+			]
+		],
+		[
+			"Stardust storm",
+			"nyan",
+			[
+				0,
+				93,
+				40
+			]
+		],
+		[
+			"The last show",
+			"nyan",
+			[
+				0,
+				93,
+				40
+			]
+		]
+	],
 	"weekCharacters": [
 		"nyan",
 		"bf",
 		"gf"
 	],
-	"songs": [
-		[
-			"Nyan",
-			"nyan",
-			[
-				0,
-				255,
-				93
-			]
-		],
-		[
-			"Echo",
-			"nyan",
-			[
-				0,
-				255,
-				93
-			]
-		],
-		[
-			"Stardust Storm",
-			"nyan2",
-			[
-				0,
-				255,
-				93
-			]
-		]
-	],
-	"hideStoryMode": false,
-	"weekName": "Chapter 1"
+	"weekName": "NBB Week"
 }

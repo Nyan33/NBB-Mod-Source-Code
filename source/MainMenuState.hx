@@ -7,7 +7,6 @@ import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
 import flixel.FlxCamera;
-import flixel.addons.display.FlxBackdrop;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.effects.FlxFlicker;
 import flixel.graphics.frames.FlxAtlasFrames;
@@ -18,16 +17,15 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import lime.app.Application;
-import flixel.util.FlxTimer;
 import Achievements;
 import editors.MasterEditorMenu;
-import WeekData;
+import flixel.input.keyboard.FlxKey;
 
 using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '0.4.2'; //This is also used for Discord RPC
+	public static var psychEngineVersion:String = '0.5.1'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -213,30 +211,7 @@ class MainMenuState extends MusicBeatState
 						switch (daChoice)
 						{
 							case 'MENUPLAY':
-								var songArray:Array<String> = [];
-								var leWeek:Array<Dynamic> = WeekData.weeksLoaded.get(WeekData.weeksList[0]).songs;
-								for (i in 0...leWeek.length) {
-									songArray.push(leWeek[i][0]);
-								}
-					
-								// Nevermind that's stupid lmao
-								PlayState.storyPlaylist = songArray;
-								PlayState.isStoryMode = true;
-					
-								var diffic = CoolUtil.difficultyStuff[2][1];
-								if(diffic == null) diffic = '';
-					
-								PlayState.storyDifficulty = 2;
-					
-								PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
-								PlayState.storyWeek = 0;
-								PlayState.campaignScore = 0;
-								PlayState.campaignMisses = 0;
-								new FlxTimer().start(1, function(tmr:FlxTimer)
-								{
-									LoadingState.loadAndSwitchState(new PlayState(), true);
-									FreeplayState.destroyFreeplayVocals();
-								});
+								MusicBeatState.switchState(new StoryMenuState());
 							case 'FREEPLAY':
 								MusicBeatState.switchState(new FreeplayState());
 							case 'awards':
@@ -244,7 +219,7 @@ class MainMenuState extends MusicBeatState
 							case 'CREDITS':
 								MusicBeatState.switchState(new CreditsState());
 							case 'OPTIONS':
-								MusicBeatState.switchState(new OptionsState());
+								MusicBeatState.switchState(new options.OptionsState());
 						}
 					});
 			}

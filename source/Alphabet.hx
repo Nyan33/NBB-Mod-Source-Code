@@ -76,6 +76,7 @@ class Alphabet extends FlxSpriteGroup
 	{
 		for (i in 0...lettersArray.length) {
 			var letter = lettersArray[0];
+			letter.destroy();
 			remove(letter);
 			lettersArray.remove(letter);
 		}
@@ -121,7 +122,7 @@ class Alphabet extends FlxSpriteGroup
 			// {
 			// }
 
-			var spaceChar:Bool = (character == " " || character == "_");
+			var spaceChar:Bool = (character == " " || (isBold && character == "_"));
 			if (spaceChar)
 			{
 				consecutiveSpaces++;
@@ -242,7 +243,7 @@ class Alphabet extends FlxSpriteGroup
 		}
 
 		if(loopNum <= splitWords.length && splitWords[loopNum] != null) {
-			var spaceChar:Bool = (splitWords[loopNum] == " " || splitWords[loopNum] == "_");
+			var spaceChar:Bool = (splitWords[loopNum] == " " || (isBold && splitWords[loopNum] == "_"));
 			if (spaceChar)
 			{
 				consecutiveSpaces++;
@@ -430,6 +431,10 @@ class AlphaCharacter extends FlxSprite
 				x -= 20 / textSize;
 				y -= 5 * textSize;
 				offset.x = 12 * textSize;
+			case '.':
+				y += 45 * textSize;
+				x += 5 * textSize;
+				offset.x += 3 * textSize;
 		}
 	}
 

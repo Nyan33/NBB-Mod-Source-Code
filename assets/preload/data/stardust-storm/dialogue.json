@@ -1,102 +1,88 @@
 {
 	"dialogue": [
 		{
-			"speed": 0.05,
-			"portrait": "nyan",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "phew"
+			"text": "well...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "nyan",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "as they said, you sing very well"
+			"text": "as they said, you sing very well",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
+			"expression": "pissed",
+			"text": "beep bop!",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "beep bop!"
+			"speed": 0.05,
+			"portrait": "bf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "nyan",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "by the way"
+			"text": "I don't really know what else to sing, and there are two more songs ahead...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "nyan",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "there is only one song left "
+			"text": "I think... I know",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "nyan",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "I'm a little tired so-"
+			"text": "take it, gf",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
+			"expression": "confused",
+			"text": "oh...",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "bep boop skbeep!"
+			"speed": 0.05,
+			"portrait": "gf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "nyan",
+			"expression": "confused",
+			"text": "I'm not really sure, but this thing is pretty weird",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "huh?"
+			"speed": 0.05,
+			"portrait": "gf"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "nyan",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "do you want me to try even harder?"
+			"text": "I don't have much time, we should start now",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "nyan",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "I'm not sure-"
+			"text": "...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "beep!"
+			"text": "don't be afraid about the music, everything will happen by itself",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "nyan"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "nyan",
+			"expression": "confused",
+			"text": "..?",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "..."
-		},
-		{
 			"speed": 0.05,
-			"portrait": "nyan",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "well, since this is the last song, then I will try to defeat you even more than before"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "skbe!"
+			"portrait": "gf"
 		}
 	]
 }
