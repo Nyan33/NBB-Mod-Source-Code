@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 1,
+		"stage": null,
+		"player1": "bf",
+		"player2": "gf1",
+		"player3": null,
+		"events": [
+			[
+				18750,
+				[
+					[
+						"Hey!",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				28800,
+				[
+					[
+						"Hey!",
+						"2",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf1",
+		"bpm": 100,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"song": "Tutorial"
+	}
+}

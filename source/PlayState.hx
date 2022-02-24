@@ -1588,56 +1588,6 @@ class PlayState extends MusicBeatState
 		});
 	}
 
-	function flipCamUp():Void
-		{
-			FlxG.sound.play(Paths.sound('cameraFlip'));
-	
-				FlxTween.tween(FlxG.camera, {angle: -30}, 0.15, {ease: FlxEase.quadInOut});
-	
-				//animations
-				new FlxTimer().start(0.025, function(tmr:FlxTimer)	
-				{
-					boyfriend.playAnim('hurt', false);
-				});
-	
-				//actual rotation tween
-				new FlxTimer().start(0.15, function(tmr:FlxTimer)	
-				{
-					FlxTween.tween(FlxG.camera, {angle: 180}, 0.15, {ease: FlxEase.quadInOut});
-				});
-	
-				//camera shake
-				new FlxTimer().start(0.30, function(tmr:FlxTimer)	
-				{
-					FlxG.camera.shake(0.025, 0.1, null, true, FlxAxes.XY);
-					boyfriend.playAnim('idle');
-				});
-		}
-	
-		function flipCamDown():Void
-		{
-			FlxG.sound.play(Paths.sound('cameraFlip'));
-	
-				//actual rotation tween
-				new FlxTimer().start(0.15, function(tmr:FlxTimer)	
-				{
-					FlxTween.tween(FlxG.camera, {angle: 0}, 0.15, {ease: FlxEase.quadInOut});
-				});
-	
-				//animations
-				new FlxTimer().start(0.025, function(tmr:FlxTimer)	
-				{
-					boyfriend.playAnim('hurt', false);
-				});
-	
-				//camera shake
-				new FlxTimer().start(0.30, function(tmr:FlxTimer)	
-				{
-					FlxG.camera.shake(0.025, 0.1, null, true, FlxAxes.XY);
-					boyfriend.playAnim('idle');
-				});
-	    }			
-
 	var startTimer:FlxTimer;
 	var finishTimer:FlxTimer = null;
 
@@ -2852,13 +2802,7 @@ class PlayState extends MusicBeatState
 			case 'Set GF Speed':
 				var value:Int = Std.parseInt(value1);
 				if(Math.isNaN(value)) value = 1;
-				gfSpeed = value;
-
-            case 'Came Up':
-				flipCamUp();
-
-			case 'Came Down':
-				flipCamDown();				
+				gfSpeed = value;			
 
 			case 'Blammed Lights':
 				var lightId:Int = Std.parseInt(value1);

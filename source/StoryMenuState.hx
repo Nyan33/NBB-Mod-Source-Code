@@ -319,10 +319,10 @@ class StoryMenuState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		if (curDifficulty < 2)
-			curDifficulty = 2;
-		if (curDifficulty >= 2)
-			curDifficulty = 2;
+		if (curDifficulty < 0)
+			curDifficulty = CoolUtil.difficulties.length-1;
+		if (curDifficulty >= CoolUtil.difficulties.length)
+			curDifficulty = 0;
 
 		var image:Dynamic = Paths.image('menudifficulties/' + Paths.formatToSongPath(CoolUtil.difficulties[curDifficulty]));
 		var newImagePath:String = '';

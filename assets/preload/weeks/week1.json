@@ -3,14 +3,18 @@
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"nyan",
+		"bf",
+		"gf"
+	],
 	"songs": [
 		[
 			"Enemy",
@@ -40,10 +44,6 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"nyan",
-		"bf",
-		"gf"
-	],
+	"hideStoryMode": false,
 	"weekName": "NBB Week"
 }
